@@ -1,5 +1,3 @@
-# Software-Engineering-Final-Project-3.1BSIT
-It contains the document and figma for the Final Project in Software Engineering
 # Software Engineering Final Project — 3.1 BSIT
 
 Welcome to the official repository for our **Software Engineering Final Project**. This project features **StockWise**, a web-based inventory management system, along with its UI/UX Figma design assets.
