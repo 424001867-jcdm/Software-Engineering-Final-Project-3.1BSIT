@@ -47,24 +47,3 @@ Welcome to the official repository for our **Software Engineering Final Project*
 2. **Navigate into the project directory:**
    ```bash
    cd stockwise
-Set up a virtual environment:
-
-# Create virtual environment
-python -m venv venv
-
-# Activate on Windows:
-venv\Scripts\activate
-
-# Activate on macOS/Linux:
-source venv/bin/activate
-
-
-pip install -r requirements.txt
-
-cp .env.example .env
-
-python seed.py
-python app.py
-
-pytest
-
