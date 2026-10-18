@@ -47,6 +47,7 @@ Welcome to the official repository for our **Software Engineering Final Project*
 2. **Navigate into the project directory:**
    ```bash
    cd stockwise
+Set up a virtual environment:
 
 # Create virtual environment
 python -m venv venv
@@ -57,3 +58,15 @@ venv\Scripts\activate
 # Activate on macOS/Linux:
 source venv/bin/activate
 
+Install dependencies:
+pip install -r requirements.txt
+
+Configure environment:
+cp .env.example .env
+
+Seed the database & start server:
+python seed.py
+python app.py
+
+Run Tests:
+pytest
