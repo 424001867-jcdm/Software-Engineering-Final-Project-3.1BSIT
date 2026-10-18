@@ -58,15 +58,13 @@ venv\Scripts\activate
 # Activate on macOS/Linux:
 source venv/bin/activate
 
-Install dependencies:
+
 pip install -r requirements.txt
 
-Configure environment:
 cp .env.example .env
 
-Seed the database & start server:
 python seed.py
 python app.py
 
-Run Tests:
 pytest
+
